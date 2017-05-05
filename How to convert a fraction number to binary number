@@ -1,0 +1,46 @@
+Real or fractional number to Binary Conversion
+
+Given input real number= 14.125, converts it into binary numbers ?
+real = decimal . fraction
+
+separate real into decimal and fractional part
+integer = 14
+fraction = .125
+
+Decimal value (integer) into Binary conversion
+
+2 | 14 | 0
+-----------
+2 | 7 | 1
+-----------
+2 | 3 | 1
+-----------
+    1
+
+decimal value (base 10) 14 = 1110 (binary base 2)
+
+Fractional value into Binary conversion
+
+1. The fraction value is multiplied by 2 and result has a decimal (1 or 0) and fraction value.
+2. take the faction value for next operation used in step 1 .
+3. The repeat the process until the fraction value reached to 0.
+4. collects the decimal value (1 or 0) from bottom to top
+
+fraction = .125
+
+= .125 x 2
+= 0.250 x 2
+= 0.50 x 2
+= 1.0
+
+fraction = 0.125 = 100
+
+Results of real number to binary conversion.
+
+The Given real value (base 10)= 14.125
+    into binary bits (base 2) = 1110.100
+
+for Java code use link below
+  http://cljavacode.blogspot.com/2017/03/real-number-to-binary-conversion.html
+
+
